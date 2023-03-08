@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Menu"
+    android:id="@+id/menu"
+    android:icon="@drawable/ic_baseline_menu_24"
+    app:showAsAction="always">
+    <menu>
+        <item
+            android:title="Setting"
+            android:icon="@drawable/phone"
+
+            android:id="@+id/sett">
+            <menu>
+                <item android:title="font"
+                    android:icon="@drawable/key"
+                    android:id="@+id/key">
+
+                </item>
+
+                <item
+                    android:title="Calender"
+                    android:icon="@drawable/calender"
+                    android:id="@+id/cal">
+
+
+                </item>
+                <item android:id="@+id/mode"
+                    android:icon="@drawable/calender"
+
+                    android:title="Mode">
+
+                </item>
+            </menu>
+        </item>
+        <item
+            android:title="Personal Information"
+            android:icon="@drawable/eye"
+            android:id="@+id/info">
+            <menu>
+                <item android:icon="@drawable/email"
+                    android:title="Email"
+                    android:id="@+id/email">
+
+                </item>
+                <item
+                    android:title="Phone Number"
+                    android:icon="@drawable/phone"
+                    android:id="@+id/phone"
+                    >
+
+                </item>
+
+            </menu>
+
+        </item>
+<item android:title="Notification"
+    android:icon="@drawable/key"
+    android:id="@+id/notidication">
+<menu>
+    <item android:id="@+id/first"
+        android:icon="@drawable/person"
+        android:title="First">
+
+    </item>
+    <item android:id="@+id/second"
+        android:icon="@drawable/person"
+        android:title="Second">
+
+    </item>
+
+</menu>
+</item>
+    </menu>
+
+</item>
+</menu>

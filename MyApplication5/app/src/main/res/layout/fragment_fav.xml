@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.fav.FavFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/card_border"
+                android:backgroundTint="#E91E63">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+
+                    android:drawableEnd="@drawable/ic_baseline_menu_24"
+                    android:drawableTint="@color/white"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="15dp"
+                    android:text="Favourites"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold|italic"
+                    android:drawableRight="@drawable/ic_baseline_menu_24">
+
+                </TextView>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Favourites"
+            android:drawableRight="@drawable/ic_baseline_menu_24"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="12dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_baseline_mail_24"
+                android:layout_marginLeft="2dp"
+                android:layout_gravity="center"
+                app:drawableTint="@android:color/holo_blue_light"
+                android:drawableLeft="@drawable/ic_baseline_mail_24">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mail"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/connect"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                >
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="connect"
+                android:layout_marginBottom="12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+
+
+            android:layout_marginTop="8dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/r">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ring central"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+
+                android:textColor="@color/black">
+
+            </TextView>
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:drawableStart="@drawable/ic_baseline_attach_email_24"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_attach_email_24"
+                app:drawableTint="@android:color/holo_blue_light">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="E-mail"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="35dp"
+            android:layout_weight="1"
+
+            android:gravity="right"
+            android:layout_marginTop="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/sale"
+                android:layout_marginLeft="2dp"
+                android:layout_gravity="center"
+                app:drawableTint="@android:color/holo_blue_light"
+                android:drawableLeft="@drawable/sale">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Point of sale"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+            </TextView>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_fav">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

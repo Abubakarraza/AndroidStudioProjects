@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">bottom_nav</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_fav">Fav</string>
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@drawable/img6">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QUICKIE"
+                android:textColor="#29388F"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UserName"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#29388F"
+                android:layout_marginLeft="12dp"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:layout_marginTop="6dp"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawableTint="#29388F"
+                android:hint="Enter UserName"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:padding="7dp"
+                android:background="@drawable/border">
+
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:layout_marginTop="12dp"
+                android:textSize="20dp"
+                android:textColor="#29388F"
+                android:layout_marginLeft="12dp"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Password"
+                android:layout_marginTop="6dp"
+                android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
+                android:drawableTint="#29388F"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:inputType="numberPassword|textPassword"
+                android:padding="7dp"
+android:drawableStart="@drawable/ic_baseline_key_24"
+                android:maxLines="1"
+                android:maxLength="8"
+                android:background="@drawable/border">
+
+            </EditText>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sign In"
+                android:id="@+id/btn4"
+                android:textSize="18dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#29388F"
+                android:background="@drawable/button"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textAllCaps="false"
+                tools:ignore="InvalidId">
+
+            </androidx.appcompat.widget.AppCompatButton>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot password?"
+                android:layout_marginTop="12dp"
+                android:textColor="#29388F"
+                android:textSize="18dp"
+                android:layout_gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log in with Facebook"
+                android:gravity="center"
+                android:textColor="#29388F"
+                android:textSize="18dp"
+                android:layout_marginTop="12dp"
+android:layout_gravity="center"
+                android:drawableStart="@drawable/ic_facebook_f_logo_blue_logo_wine">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an Account"
+                android:textColor="#29388F"
+                android:textSize="17dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="0.1"
+                android:gravity="right">
+
+            </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Sign Up"
+                    android:textColor="#29388F"
+                    android:textSize="18dp"
+                    android:layout_marginRight="30dp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.1"
+                    android:id="@+id/txt">
+
+                </TextView>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

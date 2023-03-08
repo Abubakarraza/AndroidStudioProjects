@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg9">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="B"
+            android:fontFamily="@font/bold"
+            android:textSize="80dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+       >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BREVIEA"
+            android:textSize="30dp"
+
+            android:textColor="@color/teal_200"
+            android:layout_gravity="center">
+
+        </TextView>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Brevia Opport "
+            android:textSize="20dp"
+
+            android:textColor="@color/white"
+            android:layout_gravity="center">
+
+        </TextView>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Dygnut Runt! "
+            android:textSize="20dp"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brevia Open 24 hour a day!You "
+            android:textSize="17dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="who have a key to your box will soon be able"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="17dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See more..."
+            android:textSize="17dp"
+            android:textColor="#5EEC07"
+            android:layout_gravity="center">
+
+        </TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Get Started"
+            android:layout_marginTop="160dp"
+            android:id="@+id/btn1"
+
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/button">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

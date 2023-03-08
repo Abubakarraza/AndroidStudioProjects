@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="#5D0C1D">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="227dp"
+        android:layout_gravity="top"
+        android:src="@drawable/workshop">
+
+    </ImageView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:textSize="30dp"
+   android:textStyle="bold|italic"
+    android:layout_gravity="center"
+
+    android:textColor="#C3A081">
+
+
+</TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter  Name"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_margin="12dp"
+        android:textColor="#C3A081">
+
+    </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name here"
+            android:background="@drawable/border"
+            android:layout_margin="12dp"
+            android:padding="8dp"
+            android:textColorHint="#C3A081">
+
+        </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter E-mail"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_margin="12dp"
+        android:textColor="#C3A081">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter E-mail here"
+        android:background="@drawable/border"
+        android:layout_margin="12dp"
+        android:padding="8dp"
+
+        android:textColorHint="#C3A081"
+ >
+
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter  Password"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_margin="12dp"
+        android:textColor="#C3A081">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password here"
+        android:background="@drawable/border"
+        android:layout_margin="12dp"
+        android:padding="8dp"
+        android:textColorHint="#C3A081"
+        android:drawableRight="@drawable/eye">
+
+    </EditText>
+
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SUBMIT"
+    android:textColor="@color/black"
+    android:textAllCaps="false"
+    android:textSize="18dp"
+    android:backgroundTint="#C3A081"
+    android:background="@drawable/button"
+    android:layout_margin="12dp"
+    android:id="@+id/raza2">
+
+</androidx.appcompat.widget.AppCompatButton>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account. Sign Up"
+       android:layout_gravity="center"
+        android:textSize="17dp">
+
+    </TextView>
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>
+
+

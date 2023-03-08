@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/img4">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#29388F"
+            android:text="QUICKIE"
+            android:textSize="50dp"
+           android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+>
+
+        </TextView>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="We Provide Best Cab Service"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="#29388F"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Sign In"
+    android:id="@+id/btn1"
+
+    android:textSize="18dp"
+    android:layout_gravity="end"
+android:layout_marginTop="270dp"
+    android:textColor="@color/white"
+    android:backgroundTint="#29388F"
+    android:background="@drawable/button"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:textAllCaps="false"
+  >
+
+</androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="#29388F"
+            android:layout_marginTop="12dp"
+            android:textSize="18dp"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/button"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAllCaps="false"
+            android:id="@+id/btn2"
+            tools:ignore="InvalidId">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

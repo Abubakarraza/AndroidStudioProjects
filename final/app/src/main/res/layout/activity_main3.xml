@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical"
+    android:background="#00686262">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="60dp"
+               android:layout_height="70dp"
+               android:src="@drawable/gh2"
+
+               android:layout_marginLeft="17dp"
+               >
+
+           </ImageView>
+           <ImageView
+               android:layout_width="60dp"
+               android:layout_height="70dp"
+               android:src="@drawable/hand"
+               android:layout_marginLeft="250dp"
+
+               >
+
+           </ImageView>
+
+       </LinearLayout>
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:text="Maham Imran foundation"
+    android:gravity="center"
+    android:textColor="#9F0F0F"
+    >
+
+</TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14"
+                    android:textSize="140dp"
+                    android:textColor="#396026">
+
+                </TextView>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="AUGUST"
+               android:textColor="#396026"
+               android:textSize="25dp"
+               android:textStyle="bold|italic"
+               android:layout_gravity="center"
+               >
+
+           </TextView>
+           <ImageView
+               android:layout_width="230dp"
+               android:layout_height="180dp"
+               android:src="@drawable/flage" >
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="2021"
+               android:textColor="#396026"
+               android:textSize="25dp"
+               android:textStyle="bold|italic"
+               android:layout_gravity="center"
+               >
+
+           </TextView>
+
+       </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="3dp"
+                    android:background="#396026"
+                    android:layout_marginLeft="25dp"
+                    android:layout_gravity="center">
+
+                </View>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="HAPPY INDEPENDECE DAY"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:textColor="#396026"
+                    android:textStyle="bold"
+
+               >
+
+                </TextView>
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="3dp"
+                    android:background="#396026"
+
+                    android:layout_gravity="center">
+
+                </View>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/grade"
+                    android:layout_marginLeft="25dp"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/grade"
+                    >
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/grade"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/grade"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/grade"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/grade"
+                    android:layout_marginLeft="130dp"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/grade"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/grade"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/grade"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/grade"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

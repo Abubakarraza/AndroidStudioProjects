@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.setting.SettingFragmnet"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/card_border"
+        android:backgroundTint="#009688">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+
+            android:drawableEnd="@drawable/ic_baseline_menu_24"
+            android:drawableTint="@color/white"
+            android:paddingLeft="12dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            android:text="Setting"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:drawableRight="@drawable/ic_baseline_menu_24">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.63"
+android:drawableTint="@color/black"
+
+                android:drawableStart="@drawable/ic_baseline_dark_mode_24"
+                android:drawableLeft="@drawable/ic_baseline_dark_mode_24">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_weight="0.23"
+                android:text="Dark Mode"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.63"
+                android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+
+                android:drawableTint="@color/black"
+                android:drawableRight="@drawable/ic_baseline_chevron_right_24">
+
+            </TextView>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/black">
+
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.63"
+
+
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawableTint="#FF9800">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_weight="0.23"
+                android:text="profile"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.63"
+                android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+
+                android:drawableTint="@color/black"
+                android:drawableRight="@drawable/ic_baseline_chevron_right_24">
+
+            </TextView>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/black">
+
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.63"
+
+
+                android:drawableStart="@drawable/ic_baseline_key_24"
+                android:drawableLeft="@drawable/ic_baseline_key_24"
+                android:drawableTint="#5B6FDC">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_weight="0.23"
+                android:text="Change Password"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.63"
+                android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+
+                android:drawableTint="@color/black"
+                android:drawableRight="@drawable/ic_baseline_chevron_right_24">
+
+            </TextView>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/black">
+
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.63"
+
+
+                android:drawableStart="@drawable/ic_baseline_notifications_24"
+                android:drawableLeft="@drawable/ic_baseline_notifications_24"
+                android:drawableTint="#52B656">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_weight="0.23"
+                android:text="Notification"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.63"
+                android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+
+                android:drawableTint="@color/black"
+                android:drawableRight="@drawable/ic_baseline_chevron_right_24">
+
+            </TextView>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/black">
+
+        </View>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#BDB9B9"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="12dp"
+            >
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Student Registration Form"
+                android:textSize="24dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                >
+
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name of the Applicant"
+                    android:layout_gravity="center"
+
+                    android:textColor="@color/black">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border2"
+
+                    android:layout_weight="1"
+                    android:hint="First"
+
+                    android:padding="2dp"
+
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:maxLength="15"
+                    android:backgroundTint="@color/white">
+
+                </EditText>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border2"
+                    android:layout_marginLeft="12dp"
+                    android:hint="Last"
+
+                    android:padding="2dp"
+                    android:inputType="text"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:maxLength="15"
+                    android:backgroundTint="@color/white">
+
+                </EditText>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth"
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+
+                android:hint="MM/DD//YY"
+
+
+                android:padding="2dp"
+                android:inputType="date"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:maxLength="15"
+                android:backgroundTint="@color/white">
+
+            </EditText>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="City"
+                    android:layout_weight="1"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Religion"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border2"
+
+                    android:layout_weight="1"
+                    android:hint="Enter here"
+
+                    android:padding="2dp"
+
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="11"
+                    android:backgroundTint="@color/white">
+
+                </EditText>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border2"
+                    android:layout_marginLeft="12dp"
+                    android:hint="Enter Here"
+
+                    android:padding="2dp"
+                    android:inputType="text"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:maxLength="15"
+                    android:backgroundTint="@color/white">
+
+                </EditText>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+
+
+                android:padding="2dp"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:maxLength="15"
+                android:backgroundTint="@color/white">
+
+            </EditText>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textColor="@color/black">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+          >
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+
+                    >
+
+                </RadioButton>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details of Siblings"
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+
+
+                android:padding="2dp"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:maxLength="15"
+                android:backgroundTint="@color/white">
+
+            </EditText>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parents Information"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Father Name"
+                android:textColor="@color/black">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border2"
+
+                    android:layout_weight="1"
+                    android:hint="First"
+
+                    android:padding="2dp"
+
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:maxLength="15"
+                    android:backgroundTint="@color/white">
+
+                </EditText>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border2"
+                    android:layout_marginLeft="12dp"
+                    android:hint="Last"
+
+                    android:padding="2dp"
+                    android:inputType="text"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:maxLength="15"
+                    android:backgroundTint="@color/white">
+
+                </EditText>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Father Qualificaton "
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:hint="Enter Here"
+
+                android:padding="2dp"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:maxLength="15"
+                android:backgroundTint="@color/white">
+
+            </EditText>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone"
+                    android:layout_weight="1"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="E-mail"
+                    android:layout_weight="1"
+                    android:textColor="@color/black">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border2"
+
+                    android:layout_weight="1"
+                    android:hint="Enter here"
+
+                    android:padding="2dp"
+
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="11"
+                    android:backgroundTint="@color/white">
+
+                </EditText>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border2"
+                    android:layout_marginLeft="12dp"
+                    android:hint="Enter Here"
+
+                    android:padding="2dp"
+                    android:inputType="text"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:maxLength="15"
+                    android:backgroundTint="@color/white">
+
+                </EditText>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Father Occupation"
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:hint="Enter Here"
+                android:padding="2dp"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:maxLength="15"
+                android:backgroundTint="@color/white">
+
+            </EditText>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="submit"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/black"
+                android:id="@+id/showmessage"
+                android:layout_gravity="center"
+                android:layout_margin="12dp"
+
+                >
+
+            </Button>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
